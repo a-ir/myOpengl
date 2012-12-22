@@ -83,6 +83,7 @@
     <ClInclude Include="BlendingExampleAlpha.h" />
     <ClInclude Include="DemonstratingBlendEquationModes.h" />
     <ClInclude Include="FiveFoggedSpheres.h" />
+    <ClInclude Include="FogCoordinates.h" />
     <ClInclude Include="RenderingALitSphere.h" />
     <ClInclude Include="ThreeDimensionalBlending.h" />
   </ItemGroup>

@@ -6,6 +6,11 @@
 
 static GLint fogMode;
 
+/** Using fog
+@remarks
+draws five red spheres, each at a different distance from the viewpoint.
+Pressing the 'f' key selects among the three different fog equations
+*/
 class FiveFoggedSpheres
 {
 public:

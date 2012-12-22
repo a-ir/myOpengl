@@ -5,6 +5,7 @@
 #include "ThreeDimensionalBlending.h"
 #include "AntialiasedLines.h"
 #include "FiveFoggedSpheres.h"
+#include "FogCoordinates.h"
 
 enum Sample_Num{
 	RenderingALitSphere_NO = 5,
@@ -13,6 +14,7 @@ enum Sample_Num{
 	ThreeDimensionalBlending_NO = 8,
 	AntialiasedLines_NO = 9,
 	FiveFoggedSpheres_NO = 10,
+	FogCoordinates_NO = 11,
 };
 
 int main(int argc, char *argv[])
@@ -55,6 +57,12 @@ int main(int argc, char *argv[])
 		{
 			FiveFoggedSpheres* objFFS = new FiveFoggedSpheres();
 			objFFS->startup(argc,argv);
+			break;
+		}
+	case FogCoordinates_NO:
+		{
+			FogCoordinates* objFC = new FogCoordinates();
+			objFC->startup(argc, argv);
 			break;
 		}
 	}
